@@ -3,8 +3,8 @@ services:
     # jika ingin menggunakan image yang sudah saya buat
     # image: ekasatriaap/apc:5.6
     build:
-      context: .
-      dockerfile: ./docker-compose/php/Dockerfile
+      context: ./
+      dockerfile: Dockerfile
     ports:
       - "80:80"
     volumes:
